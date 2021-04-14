@@ -1,0 +1,82 @@
+/* BASE STYLES*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Ruh1";
+    src: url(../fonts/FrankRuhlLibre-Regular.ttf);
+}
+@font-face {
+    font-family: "Ruh1 Medium";
+    src: url(../fonts/FrankRuhlLibre-Medium.ttf);
+}
+@font-face {
+    font-family: "Vibes";
+    src: url(../fonts/GreatVibes-Regular.ttf);
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+    /*FONTS*/
+    --header1: calc(2rem + 1vw); /*the large the screen gets the biger the fonts  get*/
+    --header2: calc(3.5rem + 1vw);
+    --header3: calc(3rem + 1vw); 
+    --header4: calc(2.4rem + 1vw); 
+    --text: calc(1.5rem + 1vw); 
+    --big: calc(2.4rem + 1vw); 
+    --bg-color: #414141;
+    --gray-text: #525252;
+
+    /* COLORS */
+    --special-color: #906272;
+}
+
+body {
+    font-family: "Ruh1", sans-serif;
+}
+
+h1 {
+    font-size: var(--header1);
+    font-family: "Vibes", sans-serif;
+}
+
+li,
+button,
+label,
+input,
+p {
+    font-size: var(--text);
+}
+
+h2 {
+    font-size: var(--header2);
+}
+
+h3 {
+    font-size: var(--header3);
+}
+
+h4, 
+h5 {
+    font-size: var(--header4);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
