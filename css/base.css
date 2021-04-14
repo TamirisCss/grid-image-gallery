@@ -38,6 +38,7 @@ html {
 
 body {
     font-family: "Ruh1", sans-serif;
+    animation: opening 1s ease-in-out; /*animation applied ate hero section*/
 }
 
 h1 {
@@ -49,6 +50,7 @@ li,
 button,
 label,
 input,
+a,
 p {
     font-size: var(--text);
 }
@@ -72,8 +74,10 @@ ul {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
+/*applyed at hero section*/
 .flex {
     display: flex;
     flex-direction: column;
