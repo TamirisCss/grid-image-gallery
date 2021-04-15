@@ -28,7 +28,7 @@ html {
     --header3: calc(3rem + 1vw); 
     --header4: calc(2.4rem + 1vw); 
     --text: calc(1.5rem + 1vw); 
-    --big: calc(2.4rem + 1vw); 
+    --big: calc(6rem + 1vw); 
     
     /* COLORS */
     --special-color: #906272;
@@ -77,7 +77,7 @@ a {
     color: black;
 }
 
-/*applyed at hero section, about section*/ 
+/*applyed at hero section, about section and contact section*/ 
 .flex {
     display: flex;
     flex-direction: column;
