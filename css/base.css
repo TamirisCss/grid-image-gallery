@@ -77,7 +77,7 @@ a {
     color: black;
 }
 
-/*applyed at hero section*/
+/*applyed at hero section, about section*/ 
 .flex {
     display: flex;
     flex-direction: column;

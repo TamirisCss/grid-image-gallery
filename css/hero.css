@@ -19,6 +19,7 @@
 
 .hero-introduction p {
     padding: 5rem 10rem;
+    color: var(--gray-text);
 }
 
 .hero-introduction a {
@@ -45,10 +46,11 @@
     bottom: 0;
     left: -20%;
     z-index: -1;
-    height: 55rem;
+    /* height: 55rem; */
     animation: plant-entrance 1.5s ease-in-out forwards,
     plant-shake 2.5s infinite ease alternate-reverse 2s;
     transform-origin: bottom; /*to animation start from the bottom*/
+    max-height: 80%;
 }
 
 .plant2 {
@@ -80,5 +82,14 @@
     }
     to {
         transform: rotateZ(0deg);
+    }
+}
+
+@media (max-width: 843px) {
+    .hero {
+        width: 100%;
+    }
+    .hero-introduction p {
+        padding: 5rem 3rem;
     }
 }
