@@ -36,6 +36,18 @@ html {
     --gray-text: #525252;
 }
 
+@media (min-width: 1700px) {
+    html {
+
+        --header1: 3rem;
+        --header2: 5rem;
+        --header3: 4rem; 
+        --header4: 3rem; 
+        --text: 3rem; 
+        --big: 8rem; 
+    }
+}
+
 body {
     font-family: "Ruh1", sans-serif;
     animation: opening 1s ease-in-out; /*animation applied ate hero section*/

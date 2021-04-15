@@ -1,0 +1,39 @@
+/*FOOTER SECTION*/
+footer {
+    background: var(--bg-color);
+    color: white;
+    display: flex;
+    padding: 3rem 5%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer h4 {
+    flex: 4 1 40rem;
+    font-size: calc(1.1rem + 1vw);
+}
+
+footer ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li {
+    padding: 0rem 1rem;
+}
+
+@media (max-width: 843px) {
+    footer h4 {
+        order: 2;
+        text-align: center;
+        padding-top: 1rem;
+        
+    }
+    footer ul {
+        order: 1;   
+    }
+}
+
+
